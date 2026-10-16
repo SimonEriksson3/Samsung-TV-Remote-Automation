@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
+using Samsung_TV_Remote_Automation.Views;
 
 namespace Samsung_TV_Remote_Automation
 {

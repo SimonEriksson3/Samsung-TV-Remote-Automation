@@ -3,12 +3,13 @@
     x:Class="Samsung_TV_Remote_Automation.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:views="clr-namespace:Samsung_TV_Remote_Automation.Views"
     xmlns:local="clr-namespace:Samsung_TV_Remote_Automation"
     Title="Samsung_TV_Remote_Automation">
 
     <ShellContent
         Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
+        ContentTemplate="{DataTemplate views:MainPage}"
         Route="MainPage" />
 
 </Shell>
